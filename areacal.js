@@ -63,7 +63,7 @@ function calculateArea(e) {
     else {
         error.style.display="block";
         error.style.color="red";
-      error.innerText = "Enter valid side lengths ";
+      error.innerText = "Triangle not possible. Enter Valid side lengths. ";
     }
   }
 
