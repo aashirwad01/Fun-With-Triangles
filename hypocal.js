@@ -43,7 +43,7 @@ btncheck.addEventListener("click",function calculatehypo(){
         var hypo=Math.sqrt((b*b)+(h*h));
         error.style.display="block";
         error.style.color="green";
-        error.innerHTML="Length of Hypotenuse is "+hypo;
+        error.innerHTML="Length of Hypotenuse is "+hypo.toFixed(3);
        
     }
 
