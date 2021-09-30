@@ -11,13 +11,13 @@ header
    
    
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center;
-    padding: 2em 3em; 
+    padding: 3em 3em; 
     background-color: lightpink;
     border-radius: 0.5rem;
     color:crimson ;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
    
 }
 nav ul{
@@ -25,14 +25,15 @@ nav ul{
     display:block;
 }
 nav ul li a{
-    text-decoration: none;
-   
+    text-decoration:underline;
+    padding-top: 3rem;
     position: relative;
     padding: 2rem;
 
 }
 nav ul li{
     list-style-type: none;
+   
     display: inline;
     
 }
