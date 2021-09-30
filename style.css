@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+body{
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+header
+{
+   
+   
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 2em 3em; 
+    background-color: lightpink;
+    border-radius: 0.5rem;
+    color:crimson ;
+    margin-bottom: 5%;
+   
+}
+nav ul{
+   
+    display:block;
+}
+nav ul li a{
+    text-decoration: none;
+   
+    position: relative;
+    padding: 2rem;
+
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    
+}
+
+#label-1{
+
+    font-size: x-large;
+    
+    color:black ;
+}
+
+#box-1{
+    min-width: 25%;
+    padding:0.5rem;
+    border-radius: 0.5rem;
+    border-color: lightpink;
+    background-color:crimson;
+    color:white;
+    margin-bottom: 1rem;
+}
+#box-2{
+    min-width: 25%;
+    padding:0.5rem;
+    border-radius: 0.5rem;
+    border-color: lightpink;
+    background-color:crimson;
+    color:white;
+    margin-bottom: 1rem;
+}
+#box-3{
+    min-width: 25%;
+    padding:0.5rem;
+    border-radius: 0.5rem;
+    border-color: lightpink;
+    background-color:crimson;
+    color:white;
+    margin-bottom: 1rem;
+}
+#check{
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    padding:0.25rem;
+    border-color:crimson;
+    background-color: lightpink;
+    color: black;
+    margin-right:1rem;
+
+}
+#clear{
+    border-radius: 0.5rem;
+    padding:0.25rem;
+    border-color:crimson;
+    background-color: lightpink;
+    color: black;
+    margin-right:1rem;
+
+}
+
+footer p {
+    
+    margin-top: 15%;
+    font-size: large;
+    text-align: center;
+  }
+  
+  .footer-list {
+    margin-top: 1rem;
+  }
+  
+  footer a,
+    li {
+    display: inline;
+  }
+  
+  .img-2 {
+    width: 30px;
+    padding: 0.1rem;
+  }
+
+  #hypo-h2{
+      color:darkblue;
+      margin-top: 8rem;
+  }
+  #hypo-h3{
+    color:darkblue;
+   
+}
+#h1-quiz{
+    color: purple;
+}
+.question p{
+    margin-top: 2rem;
+    color: rgb(43, 19, 1);
+}
+
+.question label{
+    margin-top: 2rem;
+    color: rgb(158, 76, 14);
+}
